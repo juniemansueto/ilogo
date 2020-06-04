@@ -3,15 +3,15 @@
     "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
-    "homepage": "https://the-control-group.github.io/logoinc/",
+    "homepage": "https://juniemansueto.github.io/logoinc/",
     "support": {
-        "issues": "https://github.com/the-control-group/logoinc/issues",
-        "source": "https://github.com/the-control-group/logoinc"
+        "issues": "https://github.com/juniemansueto/logoinc/issues",
+        "source": "https://github.com/juniemansueto/logoinc"
     },
     "authors": [
         {
-            "name": "Tony Lea",
-            "email": "tony.lea@thecontrolgroup.com"
+            "name": "Junie Mansueto",
+            "email": "juniecares@gmail.com"
         }
     ],
     "require": {
