@@ -58,7 +58,7 @@ class LogoincServiceProvider extends ServiceProvider
         $this->app->register(LogoincEventServiceProvider::class);
         $this->app->register(ImageServiceProvider::class);
         $this->app->register(LogoincDummyServiceProvider::class);
-        $this->app->register(LogoincHooksServiceProvider::class);
+       // $this->app->register(LogoincHooksServiceProvider::class);
         $this->app->register(DoctrineSupportServiceProvider::class);
 
         $loader = AliasLoader::getInstance();
