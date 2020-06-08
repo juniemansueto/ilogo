@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Str;
 use Intervention\Image\ImageServiceProvider;
 use Larapack\DoctrineSupport\DoctrineSupportServiceProvider;
-use Ilogo\LogoincHooks\LogoincHooksServiceProvider;
 use ILOGO\Logoinc\Events\FormFieldsRegistered;
 use ILOGO\Logoinc\Facades\Logoinc as LogoincFacade;
 use ILOGO\Logoinc\FormFields\After\DescriptionHandler;
