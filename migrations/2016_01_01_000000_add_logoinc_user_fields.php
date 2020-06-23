@@ -9,12 +9,12 @@ class AddLogoincUserFields extends Migration
      */
     public function up()
     {
-        Schema::table('users', function ($table) {
+       /* Schema::table('users', function ($table) {
             if (!Schema::hasColumn('users', 'avatar')) {
                 $table->string('avatar')->nullable()->after('email')->default('users/default.png');
             }
             $table->bigInteger('role_id')->nullable()->after('id');
-        });
+        })*/
     }
 
     /**
@@ -22,7 +22,7 @@ class AddLogoincUserFields extends Migration
      */
     public function down()
     {
-        if (Schema::hasColumn('users', 'avatar')) {
+     /*   if (Schema::hasColumn('users', 'avatar')) {
             Schema::table('users', function ($table) {
                 $table->dropColumn('avatar');
             });
@@ -31,6 +31,6 @@ class AddLogoincUserFields extends Migration
             Schema::table('users', function ($table) {
                 $table->dropColumn('role_id');
             });
-        }
+        } */
     }
 }
