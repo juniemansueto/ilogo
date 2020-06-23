@@ -13,7 +13,7 @@ class CreateUserRolesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_roles', function (Blueprint $table) {
+      /* Schema::create('user_roles', function (Blueprint $table) {
             $type = DB::connection()->getDoctrineColumn(DB::getTablePrefix().'users', 'id')->getType()->getName();
             if ($type == 'bigint') {
                 $table->bigInteger('user_id')->unsigned()->index();
@@ -26,6 +26,7 @@ class CreateUserRolesTable extends Migration
             $table->foreign('role_id')->references('id')->on('roles')->onDelete('cascade');
             $table->primary(['user_id', 'role_id']);
         });
+        */
     }
 
     /**
@@ -35,6 +36,6 @@ class CreateUserRolesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_roles');
+       // Schema::dropIfExists('user_roles');
     }
 }
