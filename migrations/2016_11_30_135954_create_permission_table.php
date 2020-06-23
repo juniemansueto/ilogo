@@ -13,12 +13,13 @@ class CreatePermissionTable extends Migration
      */
     public function up()
     {
-        Schema::create('permissions', function (Blueprint $table) {
+       /* Schema::create('permissions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('key')->index();
             $table->string('table_name');
             $table->timestamps();
         });
+        */
     }
 
     /**
@@ -28,6 +29,6 @@ class CreatePermissionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('permissions');
+       // Schema::dropIfExists('permissions');
     }
 }
